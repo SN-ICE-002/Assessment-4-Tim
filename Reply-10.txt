@@ -1,7 +1,9 @@
 You have created a new repo and copy the content of package.zip inside. 
 Which two other solutions could have you chosen to obtain the same result using this existing repo?
 
-the two other way that i could come up with the same results are: 
-*clone the repository containing the package and extract the package and redirected it to the new repository*
-*create a stagging/ my working branch so i can clone the repo into it to extract the package and work on it*
+Two other solutions that could have been used to obtain the same result using the existing repository are:
+
+*Clone the repository containing the package, extract the contents of package.zip, and copy or move the extracted files into the new repository.*
+*Create a staging or working branch in the existing repository, clone the repository into that branch, extract the package contents there, and 
+continue working from the branch before merging the changes into the main repository.*
 
