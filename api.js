@@ -7,8 +7,8 @@ app.get('/', (req, res) => {
   res.send('Here is the staging Branch: stagging In Progress......')
 });
 
-app.get('/API', (req, res) => {
-  res.send('NEW API')
+app.get('/api', (req, res) => {
+  res.sen('NEW API')
 });
 
 const PORT = process.env.PORT || 3000;
