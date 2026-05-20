@@ -29,6 +29,10 @@ jobs:
 
       - name: Test API
         run: curl -f http://localhost:3000
+      
+      - name: Test API 2
+        run: curl -f http://localhost:3000/api
+        
         
       - name: Stop server
         run: pkill node
