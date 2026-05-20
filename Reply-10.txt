@@ -2,6 +2,6 @@ You have created a new repo and copy the content of package.zip inside.
 Which two other solutions could have you chosen to obtain the same result using this existing repo?
 
 the two other way that i could come up with the same results are: 
-*Automated Repository Synchronization*
-*Use a CI/CD Pipeline to Automatically Deploy the ZIP Contents*
+*clone the repository containing the package and extract the package and redirected it to the new repository*
+*create a stagging/ my working branch so i can clone the repo into it to extract the package and work on it*
 
