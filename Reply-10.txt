@@ -1,0 +1,7 @@
+You have created a new repo and copy the content of package.zip inside. 
+Which two other solutions could have you chosen to obtain the same result using this existing repo?
+
+the two other way that i could come up with the same results are: 
+
+* Clone the existing repository locally and extract the ZIP contents into it*
+* Upload the ZIP contents directly through the repository web interface*
