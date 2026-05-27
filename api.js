@@ -5,7 +5,7 @@ const visiteur = process.env.visiteur || 'Anonyme';
 
 app.get('/', (req, res) => {
   res.send('Here is the staging Branch: stagging In Progress......')
- });
+});
 
 app.get('/health', (req, res) => {
   res.json({
