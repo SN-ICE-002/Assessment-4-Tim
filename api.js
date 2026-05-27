@@ -4,7 +4,7 @@ const app = express();
 const visiteur = process.env.visiteur || 'Anonyme';
 
 app.get('/', (req, res) => {
-  res.send('Here is the staging Branch: stagging In Progress......')
+  res.send('Here is the staging Branch: stagging In Progresss......')
 });
 
 app.get('/health', (req, res) => {
