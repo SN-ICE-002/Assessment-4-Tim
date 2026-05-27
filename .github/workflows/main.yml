@@ -36,3 +36,21 @@ jobs:
         
       - name: Stop server
         run: pkill node
+
+
+      - uses: actions/checkout@v4
+
+      - name: Verify Secret
+
+        run: |
+
+          if [ -z "$CI_SECRET_MESSAGE" ]; then
+            echo "Secret missing"
+            exit 1
+          else
+            echo "GitHub Secret detected"
+          fi
+
+        env:
+
+          CI_SECRET_MESSAGE: ${{ secrets.CI_SECRET_MESSAGE }}
