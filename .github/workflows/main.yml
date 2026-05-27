@@ -38,8 +38,6 @@ jobs:
         run: pkill node
 
 
-      - uses: actions/checkout@v4
-
       - name: Verify Secret
 
         run: |
