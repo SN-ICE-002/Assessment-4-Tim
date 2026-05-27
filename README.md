@@ -26,3 +26,24 @@ This application is deployed using Render.
 | Environment | Branch | Render URL |
 |---|---|---|
 | Production | main | *https://assessment-4-tim.onrender.com/* |
+
+## Environment Variables and Secrets
+
+This project uses:
+
+| Component | Purpose |
+|----------|----------|
+| APP_ENV | Environment identification |
+| Render Secret File | Runtime secret storage |
+| GitHub Secret | CI/CD workflow secret |
+
+Secrets are not committed into GitHub.
+
+
+
+
+
+
+
+
+
