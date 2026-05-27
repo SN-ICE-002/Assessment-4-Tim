@@ -15,7 +15,7 @@ app.get('/health', (req, res) => {
 });
 
 app.get('/api', (req, res) => {
-  res.sen('NEW API')
+  res.send('NEW API')
 });
 
 
